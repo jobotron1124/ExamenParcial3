@@ -11,29 +11,33 @@
     </header>
     <a class="bt" href="Base.html">Regresar a Pagina Principal</a>  
        
-    <form action="/Formulario.html">
+    <form action="#" method="post">
         
         <fieldset>
-          <legend> <mark>¿QUIEN ERES?</mark></legend>
-                <label  for="name">Nombre</label>
+          <legend> <mark>Formulario</mark></legend>
+                <label  for="name">Titulo</label>
                 <br>
-                <input class="C" type="text" id="name" name="user_name">
+                <input type="text" id="name" name="Titulo" placeholder="Titulo" required>
                 <br>
-                <label  for="image">Imagen (poner url)</label>
+                <label  for="image">Imagen </label>
                 <br>
-                <input class="C" type="text" id="name" name="user_name">
+                <input  type="text" id="name" name="Imagen" required>
                 <br>
-                <label for="mail">Descripcion</label>
+                <label for="msg">Descripcion</label>
                 <br>
-                <input class="C"type="text" id="lastname" name="user_name">
+                <input type="text" id="text" name="text" placeholder="Descripcion" required>
                 <br>
-  
+                <label for="name">Nombre del autor</label>
+                <br>
+                <input type="text" id="text" name="Nombre" placeholder="Su nombre" required>
+                <br>
                 <label for="msg">Fecha de Publicacion</label>
                 <br>
-                <input class="C"type="email" id="mail" name="user_mail">              <br>
-             
-        
-                 
+                <input type="date" id="date" name="Fecha" required>              
+                <br>
+                <br>
+				<input type="submit" value="Enviar">
+                      
       </form>
 
 </body>
